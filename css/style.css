@@ -5,6 +5,119 @@ body{
     background-color:#fff;
 }
 
+/* Banner */
+
+.text-studio{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #2196F3;
+}
+
+.text-portfolio{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #212121;
+}
+
+.contacts{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+.contacts:hover{
+    color: blue;
+}
+.banner__text{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.04em;
+}
+
+.btn-text-banner{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.06em;
+}
+
+.btn-text-banner:hover{
+    background: #2196F3;
+    border-radius: 4px;
+    
+}
+
+.text-conspiracy{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.04em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+
+.description{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.04empx;
+color: #757575;
+}
+
+.technology{
+font-family: 'Roboto' ;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.036em;
+
+}
+
+.our-team{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.036em;
+color: #212121;
+}
+
+.name-developer{
+font-family:'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.06em;
+color: #212121;
+}
+
+.position{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.06em;
+color: #757575;
+}
+
+
+
 /* Header */
 .web-studio{
     font-family: 'Raleway' sans-serif;
@@ -16,17 +129,26 @@ body{
 
 }
 
+.address{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
 
-.text-studio{
+
+.text-studio-page-2{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.04em;
-color: #212121;;
+
+color:black;
 }
 
-.text-portfolio{
+.text-portfolio-page-2{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -50,7 +172,7 @@ line-height: 1.04em;
     border-radius: 4px;
 }
 /* Presents */
-.contacts{
+.contacts-page-2{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -59,7 +181,7 @@ font-weight: 1.04em;
     color: black;
 }
 
-.contacts:hover{
+.contacts-page-2:hover{
     color: blue;
 }
 
@@ -106,4 +228,31 @@ line-height: 30px;
 line-height: 1.03em;
 }
 
+.mail
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.04em;
+color: rgb(92, 89, 89);
+}
+
+.mail:hover{
+   color: rgb(53, 40, 233);
+}
+
+.tel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.04em;
+    color: rgb(92, 89, 89); 
+}
+
+.tel:hover{
+    color: rgb(53, 40, 233);
+ }
+ 
 /* footer */
