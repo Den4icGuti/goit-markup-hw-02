@@ -170,7 +170,9 @@ color: #757575;
     font-size: 44px;
     line-height: 1.044em;
 
-    text-align: center;
+    /* text-align: center; */
+
+    justify-content: center;
 
     text-transform: uppercase;
 
@@ -366,6 +368,7 @@ color:
 
 .btn-all{
     background: #2196F3;
+    border-radius: 4px;
 /* Text */
 font-family: 'Roboto',sans-serif;
 font-style: normal;
