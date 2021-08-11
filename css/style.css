@@ -297,7 +297,7 @@ color: var(--white);
     color: var(--white);
     text-decoration: none;
     margin-left: 120px;
-    margin-bottom: 60px;
+   
 
 }
 
@@ -307,7 +307,7 @@ color: var(--white);
     width: 231px;
     height: 21px;
     left: 215px;
-   
+    
 
     
     font-style: normal;
@@ -317,7 +317,7 @@ color: var(--white);
 
 
     letter-spacing: 0.03em;
-
+    margin-right: auto;
    color: var(--white);
 }
 
