@@ -201,7 +201,7 @@ color: var(--white);
     background:  #E5E5E5;;
 }
 .features{
-  margin-top: 250px;
+  margin-bottom: 100px;
 }
 
 .text-features{
@@ -315,6 +315,7 @@ color: var(--white);
     font-size: 14px;
     line-height: 1.04;
 
+  
 
     letter-spacing: 0.03em;
     margin-right: auto;
