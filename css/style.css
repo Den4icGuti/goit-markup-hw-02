@@ -410,8 +410,8 @@ border-radius: 4px;
     font-weight: bold;
     font-size: 18px;
     line-height: 1.08;
-     letter-spacing: 0.06em;
-
+    letter-spacing: 0.06em;
+     
      color: var(--black);
 
 }
@@ -423,6 +423,10 @@ border-radius: 4px;
     font-size: 16px;
     line-height: 1.06;
     letter-spacing: 0.03em;
-
+    
     color: var(--grey);
+}
+
+.link-presentation{
+    text-decoration: none;
 }
