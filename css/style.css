@@ -10,6 +10,7 @@ body{
     --white:#FFFFFF;
     --grey: #757575;
     --blue:#2196F3;
+    --black-grey: #2F303A;
 }
 
 li{
@@ -154,9 +155,8 @@ color:var(--grey);
 /* banner */
 .banner{
 /* height: 150px; */
-background:  #2F303A;;
+background: var( --black-grey);
 }
-
 .banner__text{
  
    
@@ -164,8 +164,10 @@ background:  #2F303A;;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.044;
-    text-align: center; 
+    
    
+    margin: 0 auto;
+     
     text-transform: uppercase;
 
    color: var(--white);
@@ -176,19 +178,16 @@ background:  #2F303A;;
   
   
     
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.06;
+max-width: 696px;
+cursor: pointer;
+margin-left: 900px;
 
-    cursor: pointer;
-
-
-    margin-left: 900px;
+background: #2196F3;;
 }
 
-.btn-text-banner:hover{
-    background: var(--blue);
+.btn-text-banner:hover
+{
+background:#188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 color: var(--white);
@@ -198,8 +197,9 @@ color: var(--white);
 
 /* feature */
 .inner-content{
-    background:  #E5E5E5;;
+    background:  #F5F4FA;
 }
+
 .features{
   margin-bottom: 100px;
 }
@@ -220,7 +220,7 @@ color: var(--white);
    
     font-style: normal;
     font-size: 14px;
-    line-height: 1.04;
+    line-height: 1.4;
 
     letter-spacing: 0.03em;
 
@@ -285,7 +285,7 @@ color: var(--white);
   
     height: 150px;
     
-    background: #2F303A;
+    background: var( --black-grey);
 }
 
 .web-studio-footer{
@@ -335,7 +335,7 @@ color: var(--white);
     font-size: 14px;
     line-height: 1.04;
     letter-spacing: 0.03em;
-    color:var(--grey);
+    color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -351,7 +351,8 @@ color: var(--white);
    line-height: 1.04;
    text-decoration: none;
    letter-spacing: 0.03em;
-  color:var(--grey);
+    color: rgba(255, 255, 255, 0.6);
+
 }
 
 .tel-footer:hover{
@@ -360,6 +361,7 @@ color: var(--white);
 
 
 /* Page-2 /Portfolio.html */
+
 
 .btn-all{
     background: var(--blue);
