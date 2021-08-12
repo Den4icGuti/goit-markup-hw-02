@@ -158,19 +158,14 @@ color:var(--grey);
 background: var( --black-grey);
 }
 .banner__text{
- 
    
-    font-style: normal;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.044;
-    
-   
-    margin: 0 auto;
-     
+    max-width: 696px;
     text-transform: uppercase;
-
-   color: var(--white);
+    margin: 0 auto;
+    color: var(--white);
 
 }
 
